@@ -33,4 +33,14 @@
     [self.layer addAnimation:animation forKey:nil];
 }
 
+- (void)stopRotation {
+    CABasicAnimation *animation = [CABasicAnimation animationWithKeyPath:@"transform.rotation"];
+    animation.duration = 30;
+    animation.fromValue = [NSNumber numberWithDouble:0.0];
+    animation.toValue = [NSNumber numberWithDouble:0.0];
+    animation.repeatCount = MAXFLOAT;
+    [self.layer addAnimation:animation forKey:nil];
+}
+
+
 @end

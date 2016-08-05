@@ -158,8 +158,10 @@ int currentIndex = 0;
 - (void)onPlay:(GNButton *)btn {
     if (btn.isPlay) {
         [self.audioPlayer play];
+        [self.CDImageView onRotation];
     } else {
         [self.audioPlayer pause];
+        [self.CDImageView stopRotation];
     }
 }
 
@@ -169,6 +171,7 @@ int currentIndex = 0;
         currentIndex += 1;
         if (currentIndex > self.tableData.count - 1) {
             currentIndex = 0;
+            
         }
     } else {
         currentIndex -= 1;

@@ -11,5 +11,6 @@
 @interface GNImage : UIImageView
 
 - (void)onRotation;
+- (void)stopRotation;
 
 @end

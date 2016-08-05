@@ -43,7 +43,7 @@
 }
 
 - (void)tableView:(UITableView *)tableView willDisplayCell:(UITableViewCell *)cell forRowAtIndexPath:(NSIndexPath *)indexPath {
-    cell.layer.transform = CATransform3DMakeScale(0.1, 0.1, 1);
+    cell.layer.transform = CATransform3DMakeScale(0.75, 0.75, 1);
     [UIView animateWithDuration:0.25 animations:^{
         cell.layer.transform = CATransform3DMakeScale(1, 1, 1);
     }];
