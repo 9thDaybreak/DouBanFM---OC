@@ -1,0 +1,425 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		BC164A331D54763E000993BE /* channelViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BC164A321D54763E000993BE /* channelViewController.m */; };
+		BC399DB91D4C558F00C3ACFF /* HttpController.m in Sources */ = {isa = PBXBuildFile; fileRef = BC399DB81D4C558F00C3ACFF /* HttpController.m */; };
+		BCB1D3FF1D4B049300A2975B /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = BCB1D3FE1D4B049300A2975B /* main.m */; };
+		BCB1D4021D4B049300A2975B /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = BCB1D4011D4B049300A2975B /* AppDelegate.m */; };
+		BCB1D4051D4B049300A2975B /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BCB1D4041D4B049300A2975B /* ViewController.m */; };
+		BCB1D4081D4B049300A2975B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BCB1D4061D4B049300A2975B /* Main.storyboard */; };
+		BCB1D40A1D4B049300A2975B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BCB1D4091D4B049300A2975B /* Assets.xcassets */; };
+		BCB1D40D1D4B049300A2975B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BCB1D40B1D4B049300A2975B /* LaunchScreen.storyboard */; };
+		BCD38E2D1D4B0C240089E9B5 /* GNImage.m in Sources */ = {isa = PBXBuildFile; fileRef = BCD38E2C1D4B0C240089E9B5 /* GNImage.m */; };
+		BCD38E301D4B61310089E9B5 /* GNTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = BCD38E2F1D4B61310089E9B5 /* GNTableViewCell.m */; };
+		BCE2AC931D523BCD00D246B3 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = BCE2AC921D523BCD00D246B3 /* Default-568h@2x.png */; };
+		BCF72D101D539D580016146D /* GNOrderButton.m in Sources */ = {isa = PBXBuildFile; fileRef = BCF72D0F1D539D580016146D /* GNOrderButton.m */; };
+		BCF72D131D53A04B0016146D /* GNButton.m in Sources */ = {isa = PBXBuildFile; fileRef = BCF72D121D53A04B0016146D /* GNButton.m */; };
+		D90F6E1FC133AA1E0F66B31B /* libPods-DouBanFM - OC.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 90CA35E89ED65E5E35A281FA /* libPods-DouBanFM - OC.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		7CEF81FEF15AF0C00F274D7D /* Pods-DouBanFM - OC.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DouBanFM - OC.release.xcconfig"; path = "Pods/Target Support Files/Pods-DouBanFM - OC/Pods-DouBanFM - OC.release.xcconfig"; sourceTree = "<group>"; };
+		8E24517ABD094451CBED0946 /* Pods-DouBanFM - OC.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DouBanFM - OC.debug.xcconfig"; path = "Pods/Target Support Files/Pods-DouBanFM - OC/Pods-DouBanFM - OC.debug.xcconfig"; sourceTree = "<group>"; };
+		90CA35E89ED65E5E35A281FA /* libPods-DouBanFM - OC.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-DouBanFM - OC.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		BC164A311D54763E000993BE /* channelViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = channelViewController.h; sourceTree = "<group>"; };
+		BC164A321D54763E000993BE /* channelViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = channelViewController.m; sourceTree = "<group>"; };
+		BC399DB71D4C558F00C3ACFF /* HttpController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HttpController.h; sourceTree = "<group>"; };
+		BC399DB81D4C558F00C3ACFF /* HttpController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HttpController.m; sourceTree = "<group>"; };
+		BCB1D3FA1D4B049300A2975B /* DouBanFM - OC.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "DouBanFM - OC.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		BCB1D3FE1D4B049300A2975B /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		BCB1D4001D4B049300A2975B /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		BCB1D4011D4B049300A2975B /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		BCB1D4031D4B049300A2975B /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		BCB1D4041D4B049300A2975B /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		BCB1D4071D4B049300A2975B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		BCB1D4091D4B049300A2975B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		BCB1D40C1D4B049300A2975B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		BCB1D40E1D4B049300A2975B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BCD38E2B1D4B0C240089E9B5 /* GNImage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GNImage.h; sourceTree = "<group>"; };
+		BCD38E2C1D4B0C240089E9B5 /* GNImage.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GNImage.m; sourceTree = "<group>"; };
+		BCD38E2E1D4B61310089E9B5 /* GNTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GNTableViewCell.h; sourceTree = "<group>"; };
+		BCD38E2F1D4B61310089E9B5 /* GNTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GNTableViewCell.m; sourceTree = "<group>"; };
+		BCE2AC921D523BCD00D246B3 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		BCF72D0E1D539D580016146D /* GNOrderButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GNOrderButton.h; sourceTree = "<group>"; };
+		BCF72D0F1D539D580016146D /* GNOrderButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GNOrderButton.m; sourceTree = "<group>"; };
+		BCF72D111D53A04B0016146D /* GNButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GNButton.h; sourceTree = "<group>"; };
+		BCF72D121D53A04B0016146D /* GNButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GNButton.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		BCB1D3F71D4B049300A2975B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D90F6E1FC133AA1E0F66B31B /* libPods-DouBanFM - OC.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		48D065C82FB1F2565D12B5A5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				90CA35E89ED65E5E35A281FA /* libPods-DouBanFM - OC.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		55D5B8036244BD3D0621973E /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				8E24517ABD094451CBED0946 /* Pods-DouBanFM - OC.debug.xcconfig */,
+				7CEF81FEF15AF0C00F274D7D /* Pods-DouBanFM - OC.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		BCB1D3F11D4B049300A2975B = {
+			isa = PBXGroup;
+			children = (
+				BCE2AC921D523BCD00D246B3 /* Default-568h@2x.png */,
+				BCB1D3FC1D4B049300A2975B /* DouBanFM - OC */,
+				BCB1D3FB1D4B049300A2975B /* Products */,
+				55D5B8036244BD3D0621973E /* Pods */,
+				48D065C82FB1F2565D12B5A5 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		BCB1D3FB1D4B049300A2975B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				BCB1D3FA1D4B049300A2975B /* DouBanFM - OC.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		BCB1D3FC1D4B049300A2975B /* DouBanFM - OC */ = {
+			isa = PBXGroup;
+			children = (
+				BCB1D4001D4B049300A2975B /* AppDelegate.h */,
+				BCB1D4011D4B049300A2975B /* AppDelegate.m */,
+				BCB1D4031D4B049300A2975B /* ViewController.h */,
+				BCB1D4041D4B049300A2975B /* ViewController.m */,
+				BCD38E2E1D4B61310089E9B5 /* GNTableViewCell.h */,
+				BCD38E2F1D4B61310089E9B5 /* GNTableViewCell.m */,
+				BC164A311D54763E000993BE /* channelViewController.h */,
+				BC164A321D54763E000993BE /* channelViewController.m */,
+				BC399DB71D4C558F00C3ACFF /* HttpController.h */,
+				BC399DB81D4C558F00C3ACFF /* HttpController.m */,
+				BCF72D111D53A04B0016146D /* GNButton.h */,
+				BCF72D121D53A04B0016146D /* GNButton.m */,
+				BCF72D0E1D539D580016146D /* GNOrderButton.h */,
+				BCF72D0F1D539D580016146D /* GNOrderButton.m */,
+				BCD38E2B1D4B0C240089E9B5 /* GNImage.h */,
+				BCD38E2C1D4B0C240089E9B5 /* GNImage.m */,
+				BCB1D4061D4B049300A2975B /* Main.storyboard */,
+				BCB1D4091D4B049300A2975B /* Assets.xcassets */,
+				BCB1D40B1D4B049300A2975B /* LaunchScreen.storyboard */,
+				BCB1D40E1D4B049300A2975B /* Info.plist */,
+				BCB1D3FD1D4B049300A2975B /* Supporting Files */,
+			);
+			path = "DouBanFM - OC";
+			sourceTree = "<group>";
+		};
+		BCB1D3FD1D4B049300A2975B /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				BCB1D3FE1D4B049300A2975B /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		BCB1D3F91D4B049300A2975B /* DouBanFM - OC */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BCB1D4111D4B049300A2975B /* Build configuration list for PBXNativeTarget "DouBanFM - OC" */;
+			buildPhases = (
+				6667267D330666827BC63641 /* [CP] Check Pods Manifest.lock */,
+				BCB1D3F61D4B049300A2975B /* Sources */,
+				BCB1D3F71D4B049300A2975B /* Frameworks */,
+				BCB1D3F81D4B049300A2975B /* Resources */,
+				1EAEF292163479BFAC29505D /* [CP] Embed Pods Frameworks */,
+				07136F65B26586F48893228C /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "DouBanFM - OC";
+			productName = "DouBanFM - OC";
+			productReference = BCB1D3FA1D4B049300A2975B /* DouBanFM - OC.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BCB1D3F21D4B049300A2975B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = ZhuSunGongZuoShi;
+				TargetAttributes = {
+					BCB1D3F91D4B049300A2975B = {
+						CreatedOnToolsVersion = 7.3.1;
+					};
+				};
+			};
+			buildConfigurationList = BCB1D3F51D4B049300A2975B /* Build configuration list for PBXProject "DouBanFM - OC" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = BCB1D3F11D4B049300A2975B;
+			productRefGroup = BCB1D3FB1D4B049300A2975B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				BCB1D3F91D4B049300A2975B /* DouBanFM - OC */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		BCB1D3F81D4B049300A2975B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BCB1D40D1D4B049300A2975B /* LaunchScreen.storyboard in Resources */,
+				BCE2AC931D523BCD00D246B3 /* Default-568h@2x.png in Resources */,
+				BCB1D40A1D4B049300A2975B /* Assets.xcassets in Resources */,
+				BCB1D4081D4B049300A2975B /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		07136F65B26586F48893228C /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-DouBanFM - OC/Pods-DouBanFM - OC-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		1EAEF292163479BFAC29505D /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-DouBanFM - OC/Pods-DouBanFM - OC-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		6667267D330666827BC63641 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		BCB1D3F61D4B049300A2975B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BCD38E2D1D4B0C240089E9B5 /* GNImage.m in Sources */,
+				BCB1D4051D4B049300A2975B /* ViewController.m in Sources */,
+				BC164A331D54763E000993BE /* channelViewController.m in Sources */,
+				BC399DB91D4C558F00C3ACFF /* HttpController.m in Sources */,
+				BCF72D131D53A04B0016146D /* GNButton.m in Sources */,
+				BCD38E301D4B61310089E9B5 /* GNTableViewCell.m in Sources */,
+				BCB1D4021D4B049300A2975B /* AppDelegate.m in Sources */,
+				BCB1D3FF1D4B049300A2975B /* main.m in Sources */,
+				BCF72D101D539D580016146D /* GNOrderButton.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		BCB1D4061D4B049300A2975B /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BCB1D4071D4B049300A2975B /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		BCB1D40B1D4B049300A2975B /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BCB1D40C1D4B049300A2975B /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		BCB1D40F1D4B049300A2975B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		BCB1D4101D4B049300A2975B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		BCB1D4121D4B049300A2975B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8E24517ABD094451CBED0946 /* Pods-DouBanFM - OC.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "DouBanFM - OC/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "cn.zhusungongzuoshi.DouBanFM---OC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		BCB1D4131D4B049300A2975B /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7CEF81FEF15AF0C00F274D7D /* Pods-DouBanFM - OC.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "DouBanFM - OC/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "cn.zhusungongzuoshi.DouBanFM---OC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		BCB1D3F51D4B049300A2975B /* Build configuration list for PBXProject "DouBanFM - OC" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BCB1D40F1D4B049300A2975B /* Debug */,
+				BCB1D4101D4B049300A2975B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BCB1D4111D4B049300A2975B /* Build configuration list for PBXNativeTarget "DouBanFM - OC" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BCB1D4121D4B049300A2975B /* Debug */,
+				BCB1D4131D4B049300A2975B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BCB1D3F21D4B049300A2975B /* Project object */;
+}
